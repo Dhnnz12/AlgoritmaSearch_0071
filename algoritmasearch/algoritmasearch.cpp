@@ -59,3 +59,5 @@ void LinearSearch()
 
 		cout << "\nContineu search (y/n):";
 		cin >> ch;
+
+	} while ((ch == 'y') || (ch == 'Y'));
