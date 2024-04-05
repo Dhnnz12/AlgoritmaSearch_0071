@@ -33,7 +33,7 @@ void LinearSearch()
 	char ch;
 	int ctr;
 	int item;
-	
+
 	do
 	{
 
@@ -61,3 +61,9 @@ void LinearSearch()
 		cin >> ch;
 
 	} while ((ch == 'y') || (ch == 'Y'));
+}
+
+void display()
+{
+	cout << "Array element are: ";
+}
